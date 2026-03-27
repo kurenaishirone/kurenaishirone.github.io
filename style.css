@@ -1,0 +1,42 @@
+
+#container {
+  display: flex;
+  flex-direction: column;   /* stack items */
+  justify-content: center;  /* vertical centering */
+  align-items: center;      /* horizontal centering */
+  height: 100vh;
+  gap: 5px;                /* space between elements */
+}
+
+#title, #toggleButton, #articleNumber, #result {
+  display: flex;
+  position: relative;
+}
+#articleNumber {
+  font: normal bold 20px "Inter",sans-serif;
+}
+#title {
+  color: white;
+}
+#toggleButton {
+  z-index: 99;
+  cursor: pointer;
+  font: normal bold 20px "Inter",sans-serif;
+  top: 4px;
+  color: #094c7c;
+  background: rgb(201, 226, 254);
+  border: none;
+  border-radius: 5px;
+}
+#toggleButton:hover {
+  background: #094c7c;
+  color: rgb(201, 226, 254);
+}
+#title {
+  font: normal bold 40px "Inter",sans-serif;
+}
+#result {
+  color: white;
+  top: 5px;
+  font: normal bold 20px "Inter",sans-serif;
+}
