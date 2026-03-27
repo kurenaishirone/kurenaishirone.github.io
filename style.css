@@ -1,11 +1,10 @@
-
 #container {
   display: flex;
-  flex-direction: column;   /* stack items */
-  justify-content: center;  /* vertical centering */
-  align-items: center;      /* horizontal centering */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  gap: 5px;                /* space between elements */
+  gap: 5px;
 }
 
 #title, #toggleButton, #articleNumber, #result {
